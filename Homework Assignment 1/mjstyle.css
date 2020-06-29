@@ -1,0 +1,359 @@
+a:hover
+{
+	background-color: yellow;
+}
+
+*:Georgia State
+{
+	color: red;
+}
+
+*:Computer Science
+{
+	color: red;
+}
+
+*can
+{
+	color: red;
+}
+
+*I
+{
+	color: red;
+}
+
+.rednbold
+{
+	color: red;
+	font-weight: bold;
+}
+
+h1
+{  
+	text-align: center;  
+	font-style: italic;
+	color: darkblue;
+}
+
+p.first_p
+{
+	text-align: center;
+}
+
+p.AM
+{
+	color: darkorange;
+	font-family: fantasy, Verdana, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+p.Fav_Mov
+{
+	color: darkorange;
+	font-family: fantasy, Verdana, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+p.Fav_TV
+{
+	color: darkorange;
+	font-family: fantasy, Verdana, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+ul.AME
+{
+	color: purple;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+ul.MOV1
+{
+	color: purple;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+ol.TV2
+{
+	color: purple;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+table.theTOP, th, td
+{
+	border: 3px solid black;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	text-align: center;
+}
+
+table.theTOP
+{
+	table-layout: fixed;
+	width: 600px;
+}
+
+h2.Rname
+{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+h4.Radd
+{
+	color: black;
+	text-align: center;
+	font-weight: normal;
+}
+
+h5.Rnum
+{
+	color: black;
+	text-align: center;
+	font-weight: normal;
+}
+
+h5.Reml
+{
+	color: black;
+	text-align: center;
+	font-weight: normal;
+}
+
+h2.Exp
+{
+	color: black;
+	font-weight: normal;	
+}
+
+h2.Edu
+{
+	color: black;
+	font-weight: normal;	
+}
+
+h2.Skl
+{
+	color: black;
+	font-weight: normal;	
+}
+
+h2.EXT
+{
+	color: black;
+	font-weight: normal;	
+}
+
+h4.ent1
+{
+	color: black;
+	font-weight: bold;
+}
+
+h4.ent2
+{
+	color: black;
+	font-weight: bold;
+}
+
+h4.ent3
+{
+	color: black;
+	font-weight: bold;
+}
+
+h4.edu1
+{
+	color: black;
+	font-weight: bold;
+}
+
+h4.edu2
+{
+	color: black;
+	font-weight: bold;
+}
+
+li.FLT
+{
+	color: black;
+	font-weight: normal;
+}
+
+li.TRG
+{
+	color: black;
+	font-weight: normal;
+}
+
+li.RTA
+{
+	color: black;
+	font-weight: normal;
+}
+
+li.HSD
+{
+	color: black;
+	font-weight: normal;
+}
+
+li.BOS
+{
+	color: black;
+	font-weight: normal;
+}
+
+ul.skills
+{
+	color: black;
+	font-weight: normal;
+}
+
+ul.linklist
+{
+	color: black;
+	font-weight: normal;
+}
+
+hr.line1
+{
+	border: 1px solid black;
+}
+
+hr.line2
+{
+	border: 1px solid black;
+}
+
+hr.line3
+{
+	border: 1px solid black;
+}
+
+hr.line4
+{
+	border: 1px solid black;
+}
+
+hr.line5
+{
+	border: 1px solid black;
+}
+
+hr.line6
+{
+	border: 1px solid black;
+}
+
+hr.line7
+{
+	border: 1px solid black;
+}
+
+hr.line8
+{
+	border: 1px solid black;
+}
+
+div.QT
+{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.BR
+{
+	font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3{
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+body
+{
+	background-image: url("new_image.png");
+	background-position: 50% -7%;
+	background-repeat: no-repeat;
+	background-color: #FED166;
+}
+
+img
+{
+	width: 100px;
+	float: right;
+	margin-right: 10px}
+
+.tabs{
+    width: 600px;
+    display: block;
+    margin: 40px auto;
+    position: relative;
+}
+
+.tabs .tab{
+    float: left;
+    display: block;
+}
+
+.tabs .tab>input[type="radio"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.tabs .tab>label {
+    display: block;
+    padding: 6px 21px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color: #FFF;
+    background: #4A83FD;
+}
+
+.tabs .content {
+    z-index: 0;/* or display: none; */
+    overflow: hidden;
+    width: 600px;
+    padding: 25px;
+    position: absolute;
+    top: 27px;
+    left: 0;
+    background: #1E93E2;
+    color: #DFDFDF;
+    
+    opacity:0;
+    transition: opacity 400ms ease-out;
+}
+
+.tabs>.tab>[id^="tab"]:checked + label {
+    top: 0;
+    background: #303030;
+    color: #F5F5F5;
+}
+
+.tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
+    z-index: 1;/* or display: block; */
+   
+    opacity: 1;
+    transition: opacity 400ms ease-out;
+}
